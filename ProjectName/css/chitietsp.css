@@ -1,0 +1,943 @@
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+.content-details{
+    margin-top:20px;
+    overflow: hidden;
+    position: relative;
+    background-color: #FFFFFF;
+    margin-left:150px;
+    margin-right:150px;
+    padding-bottom:38px;  
+}
+.main-image{
+    float:left;
+    position:relative;
+}
+.main-information{
+    float:left;
+    margin-left:20px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    width:700px;
+
+}
+.info-common-details{
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+    height: 25px;
+    margin-right:0px;
+}
+.main-info-title{
+    margin-top:10px;
+    position:relative;
+    float:left;
+    font-size: 10px;
+    width:auto;
+    height:35px;
+    width:100%;
+}
+#name-title{
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+.category{
+    margin-top:-10px;
+    width:100%;
+    float:left;
+    margin-bottom:10px;
+}
+.category-items{
+    margin:0px;
+}
+
+#res-summary-point{
+    overflow: hidden;
+    margin-top: 5px;
+    clear: both;
+}
+.microsite-points-summary {
+    position: relative;
+    border: 1px solid #f8f8f8;
+    border-left: 0;
+    border-right: 0;
+    overflow: hidden;
+    clear: both;
+}
+.microsite-points-summary .microsite-point-group {
+    margin-left: 100px;
+}
+.microsite-top-points {
+    float: left;
+    margin-right: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0 6px;
+    color: #e52402;
+    text-shadow: 0 1px 1px #fff;
+    width: 70px;
+}
+.avg-txt-highlight {
+    font-size:21px;
+    color: #03ae03!important;
+}
+.microsite-top-points .label {
+    font-weight: 400;
+    color: #777;
+    font-size: 13px;
+    padding-top: 8px;
+}
+.point-tb{
+    margin-top:5px;
+    color: #fff;
+    background: #03ae03;
+    text-align: center;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 18px;
+    float: left;
+    margin-right: 0px;
+    margin-left:20px;
+    margin-bottom:0px;
+}
+.res-common-add{
+    margin-top: 10px;
+    padding:5px;
+}
+.micro-timesopen{
+    padding:5px;
+}
+.res-common-minmaxprice{
+    padding:5px;
+}
+span{
+    font-size: 14px;
+}
+.itsopen{
+    color: #03ae03;
+    font-weight: 700;
+}
+.micro-main-menu {
+    float: left;
+    width: 250px;
+    margin-left:90px;
+    
+}
+.fd-clearbox {
+    box-sizing: border-box;
+    float: left;
+    width: 120%;
+    margin-left:115px;
+    
+}
+ .list-tool {
+    display: block;
+    text-decoration-style: none;
+}
+li.active{
+    padding:10px;
+    font-size: 14px;
+}
+.fa-angle-right{
+    margin-left:25px;
+}
+.list-tool>li>a{
+    display: block;
+    position: relative;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-weight: 400;
+    border-bottom: #e6e6e6 1px solid;
+    border-left: #eee 1px solid;
+}
+.micro-right{
+    width: 1030px;
+    float: left;
+}
+.foody-toolbar {
+    position: relative;
+    z-index: 10;
+    margin:0px;
+}
+.foody-toolbar>div {
+    background: #ddd;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+}
+.fd-clearbox {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin:0px;
+}
+.micro-act-btns {
+    overflow: hidden;
+    clear: both;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+}
+.micro-act-btns>li {
+    display: block;
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+}
+.micro-act-btns>li>a {
+    display: block;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #005d80;
+    border-right: #F0F0F0 1px solid;
+    border-bottom: none;
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-weight: 700;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.microsite-table-book {
+    position: relative;
+    background: #fff;
+}
+.microsite-table-book {
+    clear: both;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+.microsite-table-book .tb-title {
+    overflow: hidden;
+    background: #fff;
+    padding: 10px 20px;
+}
+.microsite-table-book .tb-title a {
+    float: left;
+}
+.microsite-box-heading {
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.tb-offers-box {
+    position: relative;
+    padding: 0;
+}
+.delivery-dishes-group {
+    width: 100%;
+}
+.delivery-dishes-item {
+    overflow: hidden;
+    float: left;
+    width: 464px;
+    border-bottom: #f5f5f5 1px solid;
+    padding-bottom: 10px;
+    margin: 0 10px 10px 15px;
+    height: 70px;
+    box-sizing: border-box;
+}
+.delivery-dishes-item .delivery-dishes-item-left {
+    float: left;
+    width: 60px;
+}
+.img-box {
+    display: block;
+    position: relative;
+}
+.delivery-dishes-item .delivery-dishes-item-right {
+    float: left;
+    width: 388px;
+    margin-left: 16px;
+    line-height: 2em;
+}
+.delivery-dishes-item .delivery-dishes-item-right .title-name-food {
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+}
+.delivery-dishes-item .delivery-dishes-item-right .title-name-food .title-name {
+    width: 200px;
+    max-height: 40px;
+    line-height: 20px;
+    width: 290px;
+}
+.delivery-dishes-item .delivery-dishes-item-right .rating-food {
+    position: relative;
+}
+.delivery-dishes-item .delivery-dishes-item-right .rating-food .adding-food-cart {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    z-index: 4;
+}
+.price-discount {
+    color: #8b8b8b;
+    font-size: 14px;
+    height: 20px;
+}
+.price {
+    color: #206b9b;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-adding {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #EE4D2D;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer !important;
+    outline: 0;
+}
+.total-orders {
+    font-size: 12px;
+    color: #a1a1a1;
+    margin: 0;
+}
+
+.total-orders-number {
+    color: #464646;
+    font-weight: 700;
+}
+.view-all-menu {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.view-all-menu a {
+    background-color: #EE4D2D;
+    font-size: 14px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+}
+
+
+.microsite-gallery {
+    background: #fff;
+    overflow: hidden;
+    padding: 15px;
+    clear: both;
+    width: 1000px;
+    margin-left:340px;
+}
+.microsite-box {
+    overflow: hidden;
+    background: #fff;
+}
+.microsite-box-heading {
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.microsite-box-heading .title {
+    cursor: pointer;
+}
+.microsite-box-popular-pic {
+    clear: both;
+}
+.microsite-box-content {
+    overflow: hidden;
+    clear: both;
+    white-space: normal;
+}.micro-home-album {
+    float: left;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 15px;
+    width: 180px;
+}
+.micro-home-album .micro-home-album-items {
+    height: 180px;
+}
+.microsite-box a {
+    font-weight: 400;
+}
+.micro-home-album .micro-home-album-items img {
+    width: 180px;
+    height: 180px;
+}
+.microsite-box-content .edit-album-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: none;
+    position: relative;
+    margin-top: -22px;
+    z-index: 2;
+    background: #555;
+    opacity: .8;
+    color: #fff;
+    padding: 0 5px;
+    width: 170px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.microsite-box a {
+    font-weight: 400;
+}
+.microsite-box {
+    overflow: hidden;
+    background: #fff;
+}
+.micro-album {
+    margin: 0 15px 0 0;
+    float: left;
+    width: 150px;
+    height: 195px;
+    max-height: 180px;
+}
+.micro-album .img-box {
+    background: #e6e6e6;
+    height: 150px;
+    max-height:150px;
+    text-align: center;
+    position: relative;
+    margin:5px;
+}
+.img-box {
+    display: block;
+    position: relative;
+}
+.img{
+    display: block;
+    position:relative;
+    max-height:150px;
+    height:auto;
+}
+
+.micro-album .btn-upload {
+    display: inline-block;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 400;
+    border: 1px dashed #ccc;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 60px 0 0;
+}
+.micro-album .name a {
+    font-weight: 700;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px 0;
+    margin-left: 30px;
+    margin-top:-5px;
+}
+.micro-album .summary {
+    color: #777;
+}
+.micro-popup-small {
+    background: #fff;
+    min-width: 520px;
+    float: left;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.micro-popup-small .ps-title {
+    font-weight: 700;
+    padding: 15px;
+    font-size: 16px;
+}
+.micro-popup-small .ps-title {
+    font-weight: 700;
+    padding: 15px;
+    font-size: 16px;
+}
+.micro-popup-small .btn-close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    color: #000;
+    cursor: pointer;
+    background: url(/Style/css/ico/x.png) no-repeat;
+    height: 29px;
+    display: block;
+    width: 25px;
+}
+.micro-popup-small .btn-close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    color: #000;
+    cursor: pointer;
+    background: url(/Style/css/ico/x.png) no-repeat;
+    height: 29px;
+    display: block;
+    width: 25px;
+}
+.pb-e-card .mc-ps-content {
+    font-size: 14px;
+    padding: 15px;
+    line-height: 1.8em;
+    min-height: 20px;
+    border-top: #eee 1px solid;
+}
+.pb-e-card .ecard-register-more {
+    padding: 10px 0;
+    clear: both;
+}
+.pb-e-card .ecard-register-more a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    background: #5b8ef7;
+    color: #fff;
+    border-radius: 2px;
+}
+.micro-popup-small .mc-ps-content a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+
+
+.microsite-reviews-box {
+    overflow: hidden;
+    clear: both;
+    margin: 20px 0 0;
+}
+.fd-clearbox {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+.microsite-reviews-box .lists {
+    float: left;
+    width: 700px;
+}
+.micro-review-list .list-reviews {
+float: left;
+width: 700px;
+min-height: 465px;
+    margin-top:50px;
+    margin-left:300px;
+}
+.foody-box-review {
+    margin: 0 0 10px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+}
+.foody-box-review .review-list .review-item {
+    position: relative;
+    padding: 15px 15px 0;
+    margin: 0 0 8px;
+    background: #fff;
+}
+.foody-box-review .review-list .review-item .review-user {
+    position: relative;
+    padding: 0 0 5px;
+    border-bottom: #f6f6f6 1px solid;
+    margin-bottom: 5px;
+}
+.review-user .review-avatar {
+    width: 40px;
+    margin-right: 10px;
+    float: left;
+}
+.foody-box-review .review-list .review-item .review-res .rr-avatar, .foody-box-review .review-list .review-item .review-user .ru-avatar {
+    display: block;
+    float: left;
+    margin: 3px 5px 5px 0;
+    position: relative;
+}
+.foody-box-review .review-list .review-item .review-user .ru-avatar, .foody-box-review .review-list .review-item .review-user .ru-avatar img {
+    width: 40px;
+    height: 40px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+}   
+.foody-box-review .review-list .review-item .review-user .ru-avatar img {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+img {
+    border: 0;
+    display: block;
+}
+.foody-box-review .review-list .review-item .review-points {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.review-points.green {
+    background: #03ae03;
+}
+.review-points {
+    color: #fff;
+    background: #e52402;
+    text-align: center;
+    border-radius: 100px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.foody-box-review .review-list .review-item .review-points>span {
+    color: #fff!important;
+}
+
+.foody-box-review .review-list .review-item .review-user .ru-row {
+    overflow: hidden;
+    margin: 3px 0 5px;
+    font-size: 14px;
+}
+.foody-box-review .review-list .review-item .review-user .ru-username {
+    font-weight: 700;
+}
+.foody-box-review .review-list .review-item .review-user .ru-username {
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    float: left;
+    padding: 0 3px 0 0;
+    box-sizing: border-box;
+}
+.foody-box-review .review-list .review-item .review-user .ru-stats {
+    clear: both;
+    font-size: 11px;
+    color: #666;
+    
+}
+.foody-box-review .review-list .review-item .review-user .ru-device {
+    font-weight: 700;
+}
+.foody-box-review .review-list .review-item .review-user .ru-device .fa {
+    margin: -5px 0 0;
+    font-size: 11px;
+}
+.foody-box-review .review-list .review-item .review-des {
+    position: relative;
+}
+.foody-box-review .review-list .review-item .review-btns {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.foody-box-review .review-list .review-item .review-des .rd-title {
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    word-wrap: break-word;
+}
+.foody-box-review .review-list .review-item .review-des .rd-des {
+    margin: 0 0 5px;
+    white-space: pre-line;
+    font-size: 14px;
+    line-height: 1.4em;
+    word-wrap: break-word;
+}
+.foody-box-review .review-list .review-item .review-des .rd-des a.view-more {
+    display: none;
+}
+.foody-box-review .review-list .review-item .review-not-foody {
+    padding: 5px 0 10px;
+    clear: both;
+    color: #999;
+}
+.foody-box-review .review-list .review-item .foody-box-comment>.fc-toolbar {
+    margin: 0 0 10px;
+}
+.foody-box-comment .fc-toolbar>li {
+    display: block;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.foody-box-comment .fc-toolbar>li>a {
+    color: #7f7f7f;
+    display: block;
+    padding: 5px 0 0;
+}
+.foody-box-comment .fc-toolbar>li .fa {
+    margin-right: 3px;
+}
+.clearfix {
+    clear: both;
+}
+.clearfix {
+    overflow: hidden;
+    clear: both;
+}
+.foody-box-comment .fc-comment {
+    position: relative;
+}
+.foody-box-review .review-list .review-item .foody-box-comment .fc-comment>ul.rv-items {
+    padding: 15px;
+    margin: 0 -15px;
+    background: #f9f9f9;
+}
+.pn-loadmore {
+    text-align: center;
+}
+.pn-loadmore .fd-btn-more {
+    width: 100%;
+}
+.fd-btn-more {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: #049ec5;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.fd-btn-more>label {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.rp-lazy-load{
+    max-height:500px;
+    height:auto;
+    max-width:500px;
+    width:auto;
+    margin:0px;
+}
+.microsite-reviews-box .stats {
+    float: right;
+    width: 275px;
+}
+.foody-toolbar {
+    position: relative;
+    z-index: 10;
+}
+.foody-toolbar>div {
+    background: #ddd;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+}
+.microsite-box-rating-new {
+    overflow: hidden;
+}
+.ratings-boxes {
+    padding: 0;
+    border: 1px solid #eee;
+    overflow: hidden;
+    border-radius: 2px;
+    background: #fff;
+}
+.ratings-boxes .summary {
+    padding: 20px 0 15px;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: #f6f6f6 1px solid;
+}
+b {
+    font-weight: bold;
+}
+.ratings-numbers {
+    padding: 10px 40px;
+    clear: both;
+    font-size: 14px;
+}
+.ratings-numbers .rating-levels {
+    display: block;
+}
+.ratings-numbers .rating-levels .exellent {
+    color: #8E44AD;
+    font-size: 16px;
+    width: 60px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+.ratings-numbers .rating-levels .good {
+    color: #03ae03;
+    font-size: 16px;
+    width: 60px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+.ratings-numbers .rating-levels .average {
+    color: #333;
+    font-size: 16px;
+    width: 60px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+.ratings-numbers .rating-levels .bad {
+    color: #c00;
+    font-size: 16px;
+    width: 60px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+.micro-home-point {
+    overflow: hidden;
+    background: #fff;
+    padding: 15px;
+    border-top: #f5f5f5 1px solid;
+}
+.micro-home-static {
+    clear: both;
+    overflow: hidden;
+    text-align: left;
+    line-height: 1.5em;
+}
+table {
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.micro-home-static td {
+    padding: 2px 0;
+}
+strong {
+    font-weight: 700;
+}
+.ratings-boxes-points {
+    text-align: center;
+    padding: 15px 0;
+    border-top: #eee 1px solid;
+}
+.ratings-boxes-review {
+    clear: both;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.ratings-boxes-review a {
+    padding: 10px 0;
+    font-size: 14px;
+    background: #049ec5;
+    border-radius: 2px;
+    color: #fff;
+    overflow: hidden;
+    display: block;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.microsite-res-mapfacilities {
+    background: #fff;
+    overflow: hidden;
+    padding: 15px;
+    clear: both;
+    margin: 20px 0 0;
+}
+.microsite-box-heading {
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.microsite-box-heading .title {
+    cursor: pointer;
+}
+.micro-home-intro {
+    line-height: 1.5em;
+    font-size: 12px;
+}
+.micro-map-popup {
+    background: #fff;
+    position: relative;
+    width: 900px;
+    min-height: 100px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.micro-map-popup .map-close {
+    background: url(/Style/css/ico/x.png) no-repeat;
+    width: 25px;
+    height: 29px;
+    display: block;
+    z-index: 3200;
+    position: absolute;
+    top: -15px;
+    right: -16px;
+    cursor: pointer;
+}
+.micro-map-popup .map-loading {
+    opacity: .75;
+    position: absolute;
+    z-index: 1;
+    background: #fff url(/Style/images/loading.gif) no-repeat center center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.microsite-sumary-new {
+    clear: both;
+}

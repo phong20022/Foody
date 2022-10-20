@@ -1,0 +1,213 @@
+/*# sourceMappingURL=main.css.map */
+body{
+    background: #eee;
+    font-family: arial;
+    position: relative;
+    font-size: 12px;
+    line-height: 1.4em;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:#333333;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a,body,button,code,div,ul,li,ol,p{
+    padding: 0;
+    margin: 0;
+}
+.container-topbar{
+    background-color: #333333;
+    max-width: 2048px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin: 0 auto;
+    color: #fff;
+}
+.topbar{
+    padding: 0px;
+    list-style: none;
+    float: left;
+   
+}
+.topbar a{
+    display: block;
+    float: left;
+    padding:6px 15px;
+    color: white;
+    margin: 0px auto;
+    text-decoration: none;
+}
+.scrollbar{
+    background: #fff;
+    border-bottom: #ddd 1px solid;
+    z-index: 51;
+    position: absolute;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    position: relative;
+}
+.scrollbar-wapper{
+    width: 1170px;
+    padding: 10px 0;
+    height: 32px;
+    position: relative;
+    margin: auto;
+}
+img{
+    border-radius: 2px;
+}
+#foody-logo{
+    border:none;
+    width: 85px
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#main-home{
+    display:flex;
+    list-style: none;
+    margin: auto;
+    padding: auto; 
+}
+#main-home li{
+    float:center;
+    padding: 8px 8px;
+    display: block;
+    margin-right: 10px;
+
+}
+#main-home select a{
+    color: black;
+    display: block;
+    padding: 15px 20px;
+}
+
+ul.sub-anuong {
+    display: none;
+    position: absolute;
+    background-color: #F9F9F9;
+    padding: 0px 0px;
+    margin-top: 10px;
+    list-style: none;
+    width: 125px;
+    
+}
+
+#main-home li#anuong:hover ul.sub-anuong{
+    display: block;
+}
+
+ul.sub-basoc{
+    position: absolute;
+    background-color: #F9F9F9;
+    padding: 0px 0px;
+    margin-top: 10px;
+    list-style: none;
+    width: 125px;
+    display: none;
+}
+#main-home li#basoc:hover ul.sub-basoc{
+    display: block;
+}
+
+li.anuong-edit {
+    margin: 5px;
+    border-bottom: 1px solid #333333;
+}
+li.basoc-edit {
+    margin: 5px;
+    border-bottom: 1px solid #333333;
+}
+
+#anuong2{
+    margin-top:-30px;
+    left: 125px;
+    padding: 2px 0px;
+    background-color: antiquewhite;
+}
+li#anuong22 :hover li#anuong2{
+    display:block;
+}
+
+#searchbar input[type=text] {
+    width: 200px;
+    height: 20px;
+    float: center;
+    padding: 0px 20px;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 60px;
+    border: none;
+    font-size: 14px;
+  }
+a.button{
+    margin-top: -30px;
+    display: inline-block;
+    padding: 3px 16px;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 20px;
+}
+span.material-symbols-outlined{
+    margin-top: -5px;
+}
+
+li.topbar-right{
+    margin-left: 
+}
+#Content1{
+    background-color: #333333;
+    padding-bottom: 50px;
+    margin-bottom:20px;
+}
+#foody-pic1{
+    width:600px; height:300px;
+    margin-left: 400px;
+    justify-content: center; 
+    justify-items:center;
+}
+.content-line{
+    display: block;
+    max-width:1000px; height:0px;
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 270px;
+ }
+h3 {
+    font-size:16px;
+    display:block;
+}
+h4{
+    margin-top: 20px; font-size:14px;
+}
+.footer-1{
+    display:block;
+    margin-top:900px;
+    margin-left:0px;
+    max-width:2048px;
+    width: 1170px;
+    float:left;
+}
+#footer-pic{
+    max-width:1550px;
+    height:auto;
+    width:auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+
